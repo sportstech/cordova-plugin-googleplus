@@ -96,9 +96,6 @@
     <framework src="SystemConfiguration.framework" weak="true" />
     <framework src="libz.tbd" weak="true" />
     <framework src="libz.dylib" weak="true" />
-
-		<hook type="after_plugin_install" src="hooks/ios/prerequisites.js"/>
-		<hook type="after_plugin_install" src="hooks/ios/install_entitlements.js" />
   </platform>
 
 </plugin>
